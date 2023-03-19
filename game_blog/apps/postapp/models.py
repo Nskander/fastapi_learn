@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy_utils import EmailType, UUIDType
 import datetime
 
-from game_blog.database import Base
+from ...db.base_class import Base
 
 
 class Post(Base):
