@@ -1,5 +1,5 @@
 from uvicorn import run
-from game_blog import create_app
+from main import create_app
 
 
 app = create_app()
