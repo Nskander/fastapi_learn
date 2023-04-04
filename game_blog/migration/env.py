@@ -7,7 +7,7 @@ from alembic import context
 
 from db.base_class import Base
 from apps.postapp.models import Post
-from apps.authapp.models import User
+from apps.authapp.models import User, Token
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
